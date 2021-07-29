@@ -1,0 +1,941 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+}
+/*=========================NAVIGATION  BAR=====================================*/
+#navbar {
+    background-color: #8CD0E3;
+    padding: 0px 0px 10px;
+    position: fixed; 
+    width: 100%; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    z-index: 1;
+}
+#navbar h1 a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#navbar .navicons a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+#navbar h1 sup {
+    font-size: 8px;
+}
+#navbar .upperdiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+#navbar .lefticondiv2 {
+    display: flex;
+}
+#navbar .navicons {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    padding: 10px;
+}
+#navbar .fas {
+    font-size: 25px; 
+    margin-bottom: 10px;
+}
+#navbar .righticondiv2 {
+    display: flex;
+}
+#navbar span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+#navbar .navbar-ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 50%;
+}
+#navbar .navbar-ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+/*==================================SECTION 1===============================*/
+#section1 {
+    position: relative;
+    top: 125px;
+}
+#section1 img {
+    height: 440px;
+    display: block; 
+    position: absolute; 
+    top: 18px; 
+    left: 55px;
+}
+#section1 .innerdiv1 {
+    background-color: #e3f6fa; 
+    width: 950px; 
+    height: 475px; 
+    margin: 20px 20px 20px 350px;
+}
+#section1 .innerdiv2 {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-end; 
+    align-items: center; 
+    position: relative; 
+    top: 50%; 
+    -webkit-transform: translateY(-50%); 
+    -ms-transform: translateY(-50%); 
+    transform: translateY(-50%); 
+    margin-right: 200px;
+}
+#section1 .innerdiv3 {
+    width: 50%;
+}
+#section1 sup {
+    font-size: 8px;
+}
+#section1 button {
+    font-weight: 500;
+    font-size: 14px;
+    background-color: rgb(247, 235, 97);
+    box-shadow: 3px 3px rgb(115, 210, 230);
+    padding: 10px 25px;
+    border: none;
+}
+#section1 button:hover {
+    background-color: rgb(30, 102, 122);
+    color: white;
+    cursor: pointer;
+}
+/*==============================SECTION 2====================================*/
+#section2 {
+    margin: 50px 0px;
+    position: relative;
+    top: 120px;
+}
+#section2 > h2 {
+    text-align: center;
+}
+#section2 .innerdivA {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+#section2 .innerdivA a {
+    color: black;
+}
+#section2 .innerdiv1 {
+    display: flex;
+    width: 70%;
+    margin: 0px 50px 100px;
+}
+#section2 .innerdiv2 {
+    width: 228px; 
+    margin: 0px 4px 10px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+#section2 button {
+    font-weight: 500; 
+    font-size: 14px; 
+    background-color: #f5ea77; 
+    padding: 10px 55px; 
+    border: none;
+}
+#section2 button:hover {
+    background-color: rgb(30, 102, 122);
+    color: white;
+    cursor: pointer;
+}
+#section2 .innerdiv2 h4 {
+    margin-bottom: 0px;
+}
+#section2 .innerdiv2 p {
+    padding-bottom: 60px;
+}
+#section2 .innerdiv2 a {
+    font-weight: 500; 
+    font-size: 14px; 
+    background-color: rgb(115, 210, 230); 
+    box-shadow: 3px 3px rgb(247, 235, 97); 
+    padding: 10px 25px; 
+    border: none; 
+    text-decoration: none; 
+    color: black;
+}
+#section2 .innerdiv2 a:hover {
+    background-color: rgb(30, 102, 122);
+    color: white;
+}
+#section2 .innerdivB {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    text-align: center; 
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black; 
+    width: 90%; 
+    margin: auto;
+}
+#section2 .innerdivB1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+#section2 .innerdivB2 {
+    margin: 20px;
+}
+#section2 .innerdivB2 .fas {
+    font-size: 30px;
+    color: rgb(115, 210, 230);
+}
+#section2 .innerdivB1 h5 {
+    margin-bottom: 0px;
+}
+#section2 .innerdivB1 p {
+    margin-top: 0px;
+}
+/*=======================================SECTION 3========================================*/
+#section3 {
+    position: relative;
+    top: 100px;
+    background-image: linear-gradient(rgb(140, 207, 226), rgb(239, 140, 205)); 
+    height: 80vh; 
+    margin-bottom: 50px; 
+    padding: 45px 0px;
+}
+#section3 .innerdiv1 {
+    display: flex; 
+    margin: 0px auto; 
+    width: 75%; 
+    position: relative;
+}
+#section3 .innerdiv1A {
+    margin-right: 10px;
+}
+#section3 .innerdiv1B {
+    margin-left: 10px;
+}
+#section3 .innerdiv2 {
+    background-color: white; 
+    width: 400px; 
+    position: absolute; 
+    top: 450px; 
+    left: 220px; 
+    padding-bottom: 25px;
+}
+#section3 h3 {
+    text-align: center; 
+    margin-bottom: 0px;
+}
+#section3 p {
+    text-align: center; 
+    margin-top: 0px;
+}
+#section3 .innerdiv3 {
+    background-color: white; 
+    width: 400px; 
+    position: absolute; 
+    top: 450px; 
+    left: 733px; 
+    padding-bottom: 25px;
+}
+#section3 a.left {
+    position: absolute; 
+    left: 325px; 
+    top: 526px; 
+    font-weight: 500; 
+    font-size: 14px; 
+    background-color: rgb(247, 235, 97); 
+    box-shadow: 3px 3px rgb(115, 210, 230); 
+    padding: 10px 25px; 
+    border: none; 
+    text-decoration: none; 
+    color: black;
+}
+#section3 a.right {
+    position: absolute; 
+    left: 835px; 
+    top: 526px; 
+    font-weight: 500; 
+    font-size: 14px; 
+    background-color: rgb(247, 235, 97); 
+    box-shadow: 3px 3px rgb(115, 210, 230); 
+    padding: 10px 25px; 
+    border: none; 
+    text-decoration: none; 
+    color: black;
+}
+#section3 a:hover {
+    background-color: rgb(30, 102, 122);
+    color: white;
+}
+/*==========================================SECTION 4===============================================*/
+#section4 {
+    margin: 0px;
+    position: relative;
+    top: 100px;
+}
+#section4 > h2 {
+    text-align: center;
+}
+#section4 .innerdivA {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+#section4 .innerdivA a {
+    color: black;
+}
+#section4 .innerdiv1 {
+    display: flex;
+    width: 70%;
+    margin: 0px 50px 100px;
+}
+#section4 .innerdiv2 {
+    width: 228px; 
+    margin: 0px 4px 10px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+#section4 button {
+    font-weight: 500; 
+    font-size: 14px; 
+    background-color: #f5ea77; 
+    padding: 10px 55px; 
+    border: none;
+}
+#section4 button:hover {
+    background-color: rgb(30, 102, 122);
+    color: white;
+    cursor: pointer;
+}
+#section4 .innerdiv2 h4 {
+    margin-bottom: 0px;
+}
+#section4 .innerdiv2 p {
+    padding-bottom: 60px;
+}
+#section4 .innerdiv2 a {
+    font-weight: 500; 
+    font-size: 14px; 
+    background-color: rgb(115, 210, 230); 
+    box-shadow: 3px 3px rgb(247, 235, 97); 
+    padding: 10px 25px; 
+    border: none; 
+    text-decoration: none; 
+    color: black;
+}
+#section4 .innerdiv2 a:hover {
+    background-color: rgb(30, 102, 122);
+    color: white;
+}
+/*==============================================SECTION 5==============================================*/
+#section5 {
+    margin: 0px;
+    position: relative;
+    top: 80px;
+    background-color: #fbeaf5;
+    height: 85vh;
+}
+#section5 .innerdiv1 {
+    background-color: #f1d3f0; 
+    width: 50%; 
+    height: 75%; 
+    margin: auto; 
+    position: relative; 
+    top: 50%; 
+    -webkit-transform: translateY(-50%); 
+    -ms-transform: translateY(-50%); 
+    transform: translateY(-50%);
+}
+#section5 .innerdiv2 {
+    position: relative; 
+    height: 85vh; 
+    top: -435px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+#section5 .innerdiv2A {
+    width: 40%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+#section5 .innerdiv2A a {
+    font-weight: 500; 
+    font-size: 14px; 
+    background-color: rgb(247, 235, 97); 
+    box-shadow: 3px 3px rgb(115, 210, 230); 
+    padding: 10px 25px; 
+    border: none; 
+    text-decoration: none; 
+    color: black; 
+    width: 450px;
+}
+#section5 .innerdiv2A a:hover {
+    background-color: rgb(30, 102, 122);
+    color: white;
+}
+#section5 .innerdiv2B {
+    width: 55%;
+}
+/*============================================SECTION 6===============================================*/
+#section6 {
+    margin: 0px;
+    padding-top: 50px;
+    position: relative;
+    top: 60px;
+    background-color: #f4f9fb;
+    height: 80vh;
+}
+#section6 h2, h5 {
+    text-align: center;
+}
+#section6 .innerdiv1 {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    text-align: center; 
+    margin-top: 50px;
+}
+#section6 .innerdiv1 a {
+    text-decoration: none; 
+    color: black;
+}
+/*============================================SECTION 7===============================================*/
+#section7 {
+    margin: 0px;
+    padding-top: 80px;
+    position: relative;
+    top: 60px;
+    height: 85vh;
+}
+#section7 h2, p {
+    text-align: center;
+}
+#section7 .innerdivA {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+#section7 .innerdivA a {
+    color: black;
+}
+#section7 .innerdivA1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+#section7 .innerdivA1 div {
+    margin: 6px;
+}
+/*==========================================SECTION 8================================================*/
+#section8 {
+    margin: 0px;
+    padding-top: 50px;
+    position: relative;
+    top: 0px;
+    background-color: #73d2e6;
+    height: 50vh;
+}
+#section8 .innerdiv1 {
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 70%;
+}
+#section8 .innerdiv2A {
+    margin: 1px;
+}
+#section8 .innerdiv1B {
+    display: flex; 
+    justify-content: space-evenly;
+}
+#section8 .innerdiv2A a {
+    color: black;
+    text-decoration: none;
+    opacity: 0.8;
+}
+#section8 .innerdiv2A a:hover {
+    opacity: 0.5;
+}
+#section8 .innerdiv1B .fab {
+    font-size: 40px;
+}
+.fa-facebook-square {
+    color: royalblue;
+    font-size: 30px;
+}
+.fa-twitter {
+    color: rgb(66, 120, 221);
+}
+.fa-instagram {
+    color: rgb(163, 18, 163);
+}
+.fa-youtube {
+    color: red;
+}
+#section8 form {
+    background-color: #f5ea77; 
+    width: 30%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding-bottom: 50px; 
+    padding-top: 20px; 
+    position: absolute; 
+    top: -15px; 
+    right: 50px;
+}
+#section8 form input {
+    width: 90%;
+    height: 40px;
+}
+#section8 form button {
+    width: 90%; 
+    height: 40px;
+    background-color: rgb(115, 210, 230); 
+    box-shadow: 3px 3px #e3c0d9;
+    border: none;
+}
+#section8 button:hover {
+    background-color: rgb(30, 102, 122);
+    color: white;
+    cursor: pointer;
+}
+#section8 .innerdiv2B {
+    margin-top: 100px;
+}
+#section8 .innerdiv1A {
+    margin-top: 80px;
+}
+/*===========================================SECTION 9==============================================*/
+#section9 {
+    margin: 0px;
+    padding-top: 50px;
+    position: relative;
+    top: 0px;
+    background-color: #ebebeb;
+    height: 30vh;
+    padding-left: 50px; 
+    padding-right: 50px;
+}
+#section9 p {
+    text-align: justify;
+}
+#section9 a {
+    color: black;
+}
+/*=========================================SECTION 10=================================================*/
+#section10 {
+    margin: 0px;
+    position: relative;
+    top: 0px;
+    background-color: #fbf4b6;
+    height: 2.5vh;
+}
+
+
+/*===============================================MEDIA RULES for screen sizes between 400px to 600px===============================================*/
+@media (min-width: 400px) and (max-width: 600px) {
+    #navbar h1 a {
+        font-size: 20px;
+    }
+    #navbar .navicons a {
+        font-weight: 300;
+        font-size: 10px;
+    }
+    #navbar .upperdiv {
+        padding: 0px;
+    }
+    #navbar .navbar-ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+    }
+    #navbar .navbar-ul a:hover {
+        background-color: black;
+        color: white;
+    }
+    /*==SECTION 1==*/
+    #section1 {
+        top: 180px;
+    }
+    #section1 img {
+        height: 250px;
+        width: 450px;
+        left: 10px;
+    }
+    #section1 .innerdiv1 {
+        width: 480px;
+        height: 550px;
+        margin: 0px;
+    }
+    #section1 .innerdiv2 {
+        justify-content: center;
+        top: 80%;
+        margin: 0px;
+    }
+    #section1 .innerdiv3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    /*==SECTION 2==*/
+    #section2 {
+        top: 200px;
+    }
+    #section2 .innerdiv1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 100px;
+    }
+    #section2 .innerdiv2 {
+        width: 250px;
+        margin: 5px 0px 50px;
+        border: 2px solid royalblue;
+    }
+    #section2 .innerdivB {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    /*==SECTION 3==*/
+    #section3 {
+        top: 180px;
+        height: 1000px;
+    }
+    #section3 .innerdiv1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+    }
+    #section3 .innerdiv1A {
+        margin: 0px 15px;
+    }
+    #section3 .innerdiv1A img {
+        width: 450px;
+    }
+    #section3 .innerdiv2 {
+        left: 45px;
+    }
+    #section3 a.left {
+        left: 150px;
+    }
+    #section3 .innerdiv1B {
+        margin-top: 80px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+    #section3 .innerdiv1B img {
+        width: 450px;
+    }
+    #section3 .innerdiv3 {
+        left: 45px;
+        top: 960px;
+    }
+    #section3 a.right {
+        left: 150px;
+        top: 1040px;
+    }
+    /*==SECTION 4==*/
+    #section4 {
+        top: 200px;
+    }
+    #section4 .innerdiv1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 100px;
+    }
+    #section4 .innerdiv2 {
+        width: 250px;
+        margin: 5px 0px 50px;
+        border: 2px solid royalblue;
+    }
+    #section4 .innerdivB {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    /*==SECTION 5==*/
+    #section5 {
+        top: 100px;
+        height: 1000px;
+    }
+    #section5 .innerdiv2 {
+        flex-direction: column-reverse;
+        top: -500px;
+    }
+    #section5 .innerdiv2A {
+        width: 100%;
+    }
+    #section5 .innerdiv2A a {
+        width: 400px;
+    }
+    #section5 .innerdiv2B {
+        width: 100%;
+    }
+    #section5 .innerdiv2B img {
+        width: 450px;
+    }
+    /*==SECTION 6==*/
+    #section6 {
+        top: 100px;
+        height: 1600px;
+    }
+    #section6 .innerdiv1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #section6 .innerdiv1 a {
+        margin-bottom: 50px;
+    }
+    /*==SECTION 7==*/
+    #section7 {
+        top: 100px;
+    }
+    #section7 .innerdivA1 {
+        flex-direction: column;
+        margin: 6px 50px;
+    }
+    /*==SECTION 8==*/
+    #section8 {
+        top: 800px;
+        height: 600px;
+    }
+    #section8 .innerdiv1 {
+        margin-top: 250px;
+        padding-bottom: 50px;
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+    #section8 form {
+        width: 100%;
+        right: 0px;
+    }
+    #section8 .innerdiv1A {
+        margin-top: 20px;
+    }
+    /*==SECTION 9==*/
+    #section9 {
+        top: 800px;
+        padding-bottom: 150px;
+    }
+    /*==SECTION 10==*/
+    #section10 {
+        display: none;
+        top: 900px;
+    }
+}
+/*=============================================MEDIA RULES for screen sizes between 800px and 1100px============================================*/
+@media (min-width: 800px) and (max-width: 1100px) {
+    #navbar .upperdiv {
+        padding: 0px;
+    }
+    #navbar .navbar-ul {
+        justify-content: space-around;
+        max-width: 100%;
+    }
+    /*==SECTION 1==*/
+    #section1 {
+        top: 120px;
+    }
+    #section1 img {
+        height: 450px;
+        width: 600px;
+        left: 60px;
+    }
+    #section1 .innerdiv1 {
+        margin: 0px auto;
+        max-width: 800px;
+        height: 750px;
+    }
+    #section1 .innerdiv2 {
+        justify-content: center;
+        top: 80%;
+        margin: 0px;
+    }
+    #section1 .innerdiv3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    /*==SECTION 2==*/
+    #section2 {
+        top: 150px;
+    }
+    #section2 .innerdiv1 {
+        width: 90%;
+        margin: 0px auto;
+    }
+    #section2 .innerdiv2 {
+        width: 220px;
+        margin: 5px 0px 50px;
+    }
+    /*==SECTION 3==*/
+    #section3 {
+        top: 180px;
+        height: 1000px;
+    }
+    #section3 .innerdiv1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+    }
+    #section3 .innerdiv1A {
+        margin: 0px 15px;
+    }
+    #section3 .innerdiv1A img {
+        width: 450px;
+    }
+    #section3 .innerdiv2 {
+        left: 295px;
+    }
+    #section3 a.left {
+        left: 400px;
+    }
+    #section3 .innerdiv1B {
+        margin-top: 80px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+    #section3 .innerdiv1B img {
+        width: 450px;
+    }
+    #section3 .innerdiv3 {
+        left: 295px;
+        top: 960px;
+    }
+    #section3 a.right {
+        left: 400px;
+        top: 1040px;
+    }
+    /*==SECTION 4==*/
+    #section4 {
+        top: 200px;
+    }
+    #section4 .innerdiv1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 100px;
+    }
+    #section4 .innerdiv2 {
+        width: 250px;
+        margin: 5px 0px 50px;
+        border: 2px solid royalblue;
+    }
+    #section4 .innerdivB {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    /*==SECTION 5==*/
+    #section5 {
+        top: 100px;
+        height: 1000px;
+    }
+    #section5 .innerdiv2 {
+        flex-direction: column-reverse;
+        top: -500px;
+    }
+    #section5 .innerdiv2A {
+        width: 100%;
+    }
+    #section5 .innerdiv2A a {
+        width: 400px;
+    }
+    #section5 .innerdiv2B {
+        width: 100%;
+    }
+    #section5 .innerdiv2B img {
+        width: 450px;
+    }
+    /*==SECTION 6==*/
+    #section6 {
+        top: 100px;
+        height: 1600px;
+    }
+    #section6 .innerdiv1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #section6 .innerdiv1 a {
+        margin-bottom: 50px;
+    }
+    /*==SECTION 7==*/
+    #section7 {
+        top: 100px;
+    }
+    /*==SECTION 8==*/
+    #section8 {
+        top: 100px;
+        height: 600px;
+    }
+    #section8 .innerdiv1 {
+        margin-top: 250px;
+        padding-bottom: 50px;
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+    #section8 form {
+        width: 50%;
+        right: 0px;
+    }
+    #section8 .innerdiv1A {
+        margin-top: 20px;
+    }
+    /*==SECTION 9==*/
+    #section9 {
+        top: 100px;
+        padding-bottom: 150px;
+    }
+    /*==SECTION 10==*/
+    #section10 {
+        display: none;
+    }
+}
